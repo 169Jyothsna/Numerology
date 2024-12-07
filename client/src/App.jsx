@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Use Routes instead of Switch
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import BirthChart from './components/BirthChart';
 import "./App.css";
 
@@ -7,7 +7,7 @@ const App = () => {
   return (
     <Router>
       <Routes> 
-        <Route path="/" element={<BirthChart />} /> {/* Replace Switch with Routes and use element prop */}
+        <Route path="/" element={<BirthChart />} /> 
       </Routes>
     </Router>
   );
